@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The FinTech Ledger</title>
+    
+    <!-- Fonts: Syne (Display), Inter (Body), Roboto Mono (Data) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto+Mono:wght@400;500;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gold: '#D4AF37',
+              silver: '#C0C0C0',
+              trust: '#2D6BFF',
+              void: '#0B0B15',
+              overlay: '#060611',
+              'gold-dim': 'rgba(212, 175, 55, 0.1)',
+              'trust-dim': 'rgba(45, 107, 255, 0.1)',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Syne', 'sans-serif'],
+              mono: ['Roboto Mono', 'monospace'],
+            },
+            backgroundImage: {
+              'market-gradient': 'radial-gradient(circle at center, #1a1a2e 0%, #0B0B15 100%)',
+            }
+          }
+        }
+      }
+    </script>
+    
+    <style>
+      body {
+        background-color: #0B0B15;
+        color: #C0C0C0;
+        overflow-x: hidden;
+      }
+      /* Custom scrollbar for webkit */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #060611; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #D4AF37; 
+      }
+      
+      .glass-panel {
+        background: rgba(6, 6, 17, 0.7);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(192, 192, 192, 0.1);
+      }
+      
+      .text-glow {
+        text-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.29.2",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
