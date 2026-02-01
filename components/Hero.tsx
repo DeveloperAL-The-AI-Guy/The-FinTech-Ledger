@@ -52,7 +52,12 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6"
         >
-          <a href="#access" className="group relative bg-trust hover:bg-blue-600 text-white font-display font-bold text-sm px-8 py-4 rounded-sm transition-all overflow-hidden flex items-center justify-center">
+          <a 
+            href="https://google.com" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative bg-trust hover:bg-blue-600 text-white font-display font-bold text-sm px-8 py-4 rounded-sm transition-all overflow-hidden flex items-center justify-center"
+          >
             <span className="relative z-10 flex items-center tracking-widest uppercase">
               Deploy Protocol
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -60,7 +65,12 @@ const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-white/10 translate-y-full group-hover:translate-y-0 transition-transform duration-200" />
           </a>
 
-          <a href="#protocol" className="group flex items-center space-x-2 text-silver hover:text-gold transition-colors font-mono text-sm uppercase tracking-wider">
+          <a 
+            href="https://yahoo.com" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center space-x-2 text-silver hover:text-gold transition-colors font-mono text-sm uppercase tracking-wider"
+          >
             <span>System_Architecture</span>
             <ChevronRight className="w-4 h-4" />
           </a>
