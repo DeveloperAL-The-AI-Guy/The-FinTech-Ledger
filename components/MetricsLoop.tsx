@@ -9,7 +9,7 @@ const metrics = [
 
 const MetricsLoop: React.FC = () => {
   return (
-    <section className="relative z-10 w-full py-24 px-4 bg-void">
+    <section id="analytics" className="relative z-10 w-full py-24 px-4 bg-void scroll-mt-28">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {metrics.map((m, idx) => (

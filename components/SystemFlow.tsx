@@ -24,7 +24,7 @@ const steps = [
 
 const SystemFlow: React.FC = () => {
   return (
-    <section id="protocol" className="relative z-10 w-full py-32 px-4 bg-void">
+    <section id="protocol" className="relative z-10 w-full py-32 px-4 bg-void scroll-mt-28">
       <div className="max-w-6xl mx-auto">
         <div className="mb-20 border-l-4 border-gold pl-6">
           <h2 className="font-display font-bold text-4xl text-white mb-4">PROTOCOL_LOGIC</h2>

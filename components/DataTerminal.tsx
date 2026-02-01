@@ -33,7 +33,7 @@ const CustomTooltip = ({ active, payload, label }: any) => {
 
 const DataTerminal: React.FC = () => {
   return (
-    <section id="market" className="relative z-10 w-full py-24 px-4 bg-void/50 backdrop-blur-sm border-y border-silver/5">
+    <section id="market" className="relative z-10 w-full py-24 px-4 bg-void/50 backdrop-blur-sm border-y border-silver/5 scroll-mt-28">
       <div className="max-w-6xl mx-auto">
         
         {/* Header */}
